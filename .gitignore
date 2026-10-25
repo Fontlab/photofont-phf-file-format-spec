@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+_private/
+.omc/
+.codegraph/
+.DS_Store

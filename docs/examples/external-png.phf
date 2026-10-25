@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PhF version="2.0">
+  <!-- this_file: src_docs/md/examples/external-png.phf -->
+  <header>
+    <family type="string">Example Colour</family>
+    <upm type="int">1000</upm>
+    <ascender type="int">800</ascender>
+    <descender type="int">200</descender>
+  </header>
+  <globals>
+    <unicode_mapping type="array" subtype="map_unicode">
+      <map id="A" unc="65" />
+      <map id="space" unc="32" />
+    </unicode_mapping>
+  </globals>
+  <glyphs>
+    <glyph id="A">
+      <image id="v0" type="photo">
+        <shape system="pixel.png">
+          <ppm int="100" />
+          <bbox x="0" y="0" width="1" height="1" />
+          <base x="0" y="1" />
+          <delta x="60" y="0" />
+        </shape>
+      </image>
+    </glyph>
+    <glyph id="space">
+      <image id="v0" type="photo">
+        <shape>
+          <ppm int="1000" />
+          <bbox x="0" y="0" width="0" height="0" />
+          <base x="0" y="0" />
+          <delta x="250" y="0" />
+        </shape>
+      </image>
+    </glyph>
+  </glyphs>
+</PhF>

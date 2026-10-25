@@ -1,0 +1,60 @@
+# this_file: src_docs/mkdocs.yml
+site_name: Photofont 2.0
+site_description: XML file format specification for PNG and SVG glyph images
+site_url: https://fontlab.dev/photofont-phf-file-format-spec/
+docs_dir: md
+site_dir: ../docs
+exclude_docs: |
+  **/__pycache__/**
+  **/*.pyc
+theme:
+  name: materialx
+  font: false
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: black
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - materialx/search
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path: [src_docs/md]
+      check_paths: true
+nav:
+  - Overview: index.md
+  - Specification:
+      - Document and header: document.md
+      - Encoding and kerning: mapping.md
+      - Glyphs and metrics: metrics.md
+      - PNG and SVG resources: resources.md
+      - Conformance and compatibility: conformance.md
+  - Examples: examples.md
+  - Python recipes: python.md
+  - Sources and status: sources.md
+extra_css:
+  - https://i.fontlab.com/fltheme26/1.0.0/components.css
+  - https://i.fontlab.com/fltheme26/1.0.0/theme.css
+extra_javascript:
+  - https://i.fontlab.com/fltheme26/1.0.0/basecoat.js
+  - https://i.fontlab.com/fltheme26/1.0.0/theme.js
