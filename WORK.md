@@ -70,4 +70,41 @@ this_file: WORK.md
 - The existing private-directory ignore rule is retained and will be committed
   with ignores for local task state, CodeGraph data and Finder metadata.
 
-Publication remains pending until the pushed commit is served at the HTTPS URL.
+## Publication and live acceptance
+
+- Implementation commit `10c78d8d81fede1e9bfea508915d61e9c13c1e31` was pushed to
+  `main`. [Verification run](https://github.com/Fontlab/photofont-phf-file-format-spec/actions/runs/40237824263)
+  and [Pages deployment](https://github.com/Fontlab/photofont-phf-file-format-spec/actions/runs/40237823438)
+  both succeeded. Pages serves `main:/docs`.
+- Checked the real HTTPS site at
+  <https://fontlab.dev/photofont-phf-file-format-spec/>. All nine document routes
+  return 200 and render. Search, navigation, both theme toggles, mobile menu and
+  desktop/mobile overflow assertions pass. No JavaScript exceptions or failed
+  application navigation/assets were observed. Screenshots were retained.
+- Compared all 52 public files against the committed website. All returned 200.
+  42 files, including all downloads, matched byte-for-byte. The ten HTML files
+  matched after removing only Cloudflare's appended challenge script, with the
+  removed block identified explicitly. `.nojekyll` is a deployment control file,
+  not a served download. Wire and normalized SHA-256 receipts are retained locally.
+- The normal inline-dependency command `uv run
+  src_docs/md/examples/photofont.py src_docs/md/examples/embedded-svg.phf` also
+  passed, reporting a 650-unit A advance and a 250-unit metric-only space.
+- Final direct review and cleanup gates remain APPROVE/CLEAR. No new code was
+  required after publication; this final record changes no website bytes.
+
+### Observed hosting limitations
+
+The hosted domain presents a cookie dialog; browser acceptance used **Reject
+All** and verified working search afterwards. The hosting/theme environment
+also emits third-party tracking requests that return 400 or are blocked by the
+browser. Cloudflare Speed Brain issues an optional `sec-purpose: prefetch`
+request for the metrics page that receives 503, while the actual document
+navigation and direct request return 200. These are recorded separately from
+application failures in the browser receipt. No domain-wide tracking, consent
+or Cloudflare configuration was changed by this repository task.
+
+Cloudflare rejects Python's default urllib client with error 1010; public-file
+verification used curl, and normal browser navigation was tested independently.
+The on-wire HTML differs from the committed build solely by the identified
+Cloudflare challenge injection. Native FontLab/Glyphs import and rendering were
+not tested, and compatibility with a new 2.0 root marker is not claimed.

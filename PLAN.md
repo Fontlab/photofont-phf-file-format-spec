@@ -21,5 +21,5 @@ ProperDocs/MaterialX website using fltheme26, then publish and check the live si
 Acceptance evidence is recorded in WORK.md. No private implementation or sample
 font is redistributed. Existing owner changes remain intact.
 
-Steps 1–5 are complete. Step 6 has passed direct review and awaits publication
-and verification of the deployed content.
+Steps 1–6 are complete. The published site and every public file have been
+verified; WORK.md records the evidence and hosting limitations.
