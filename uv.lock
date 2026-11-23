@@ -194,7 +194,7 @@ wheels = [
 
 [[package]]
 name = "fly-january"
-version = "0.2.0"
+version = "0.2.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "mkdocs" },
@@ -202,9 +202,9 @@ dependencies = [
     { name = "properdocs" },
     { name = "vexy-python-markdown-figure-groups" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7f/1a/8868df4cbba151507ed7854a1111c92e6e23ef241c7f0ec20eb0afde0efc/fly_january-0.2.0.tar.gz", hash = "sha256:ea65d5a70e54765bf31aec044370d109f5da8edbf3683a167bdd42bce64fdc0f", size = 237042, upload-time = "2026-11-23T23:26:34.453Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ea/7f/d8bff518128e1dde4611884a65781849e624efa66f2bcbf9aa3bf3ac7855/fly_january-0.2.1.tar.gz", hash = "sha256:610705419b53ea775e7ad1448448ca4bac2d03b3f963c6f245fa9673ee0a59ee", size = 237915, upload-time = "2026-11-23T23:54:13.466Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/29/11/2a35d125fc5f1db7020360a018251e2470a114f21d034ba6b13ccd010280/fly_january-0.2.0-py3-none-any.whl", hash = "sha256:3c0940cae925edb37cb1c0017bdebcdb3f68e3789351b8f3dbe84f9aa46e995a", size = 225749, upload-time = "2026-11-23T23:26:32.875Z" },
+    { url = "https://files.pythonhosted.org/packages/ea/f7/660b63021c2d340aaedf44d844736213387f92de7edf416a83b5a0b97708/fly_january-0.2.1-py3-none-any.whl", hash = "sha256:fc0910cc46858d7efe4687518c0591b676bb475980014415d75183e30d374661", size = 226182, upload-time = "2026-11-23T23:54:12.162Z" },
 ]
 
 [[package]]
@@ -526,7 +526,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "defusedxml", specifier = ">=0.7.1" },
-    { name = "fly-january", specifier = "==0.2.0" },
+    { name = "fly-january", specifier = "==0.2.1" },
     { name = "mkdocs-materialx", specifier = ">=10.1.4" },
     { name = "properdocs", specifier = ">=1.6.7" },
     { name = "pymdown-extensions", specifier = ">=10.15" },

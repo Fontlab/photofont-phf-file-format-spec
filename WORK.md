@@ -6,7 +6,7 @@ this_file: WORK.md
 
 ## 2026-11-23 theme migration
 
-- Switched `src_docs/mkdocs.yml` to fly-january 0.2.0 with FontLab chrome
+- Switched `src_docs/mkdocs.yml` to fly-january 0.2.1 with FontLab chrome
   labelled “Photofont 2.0”. Kept the documentation menu, search and light/dark toggle.
 - `bash build.sh` passed in strict mode with zero warnings on Python 3.13.
   `bash test.sh` passed all 16 tests, including link, fragment and download checks.
