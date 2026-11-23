@@ -49,6 +49,6 @@ created for this specification, and covered by the repository's MIT license.
 ## Website tooling
 
 The website uses [ProperDocs](https://properdocs.org/user-guide/configuration/)
-and the [fly-january 0.1.1 theme](https://pypi.org/project/fly-january/0.1.1/)
+and the [fly-january 0.2.0 theme](https://pypi.org/project/fly-january/0.2.0/)
 with the FontLab menu and footer.
 Markdown and configuration are maintained separately from generated HTML.
