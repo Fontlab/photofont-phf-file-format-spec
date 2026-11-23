@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12"
 
 [[package]]
@@ -190,6 +190,21 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/0f/d5/c66da9b79e5bdb124974bfe172b4daf3c984ebd9c2a06e2b8a4dc7331c72/defusedxml-0.7.1.tar.gz", hash = "sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69", size = 75520, upload-time = "2021-03-08T10:59:26.269Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl", hash = "sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61", size = 25604, upload-time = "2021-03-08T10:59:24.45Z" },
+]
+
+[[package]]
+name = "fly-january"
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "mkdocs" },
+    { name = "mkdocs-materialx" },
+    { name = "properdocs" },
+    { name = "vexy-python-markdown-figure-groups" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8e/1e/6727b25c3b795fd4806996659f8a737ed9e876f5f65d03b63e08b7b2b36b/fly_january-0.1.1.tar.gz", hash = "sha256:79ae05b67751380c3840e3c6c44e7d882749d3246fc601764fd82976bb38fa61", size = 236565, upload-time = "2026-11-23T22:08:14.906Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/97/c7/6aa6dcf671168fed5ea74d2863a7be4ec72a390745dc419468205a84572d/fly_january-0.1.1-py3-none-any.whl", hash = "sha256:7922f58074bcfea54429b849f68b650e0005eba5f3bfb4630d70f94258b4db27", size = 225670, upload-time = "2026-11-23T22:08:13.234Z" },
 ]
 
 [[package]]
@@ -502,6 +517,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "defusedxml" },
+    { name = "fly-january" },
     { name = "mkdocs-materialx" },
     { name = "properdocs" },
     { name = "pymdown-extensions" },
@@ -510,6 +526,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "defusedxml", specifier = ">=0.7.1" },
+    { name = "fly-january", specifier = "==0.1.1" },
     { name = "mkdocs-materialx", specifier = ">=10.1.4" },
     { name = "properdocs", specifier = ">=1.6.7" },
     { name = "pymdown-extensions", specifier = ">=10.15" },
@@ -680,6 +697,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/e3/05/b17359e1cefb4f909b5e40b1b90a496d987258916dbbf88e842c729f510e/urllib3-2.8.0.tar.gz", hash = "sha256:63bf2ead4c879426ebf22ef2a781eeb4aa3b4ae798a0435506f8687fd5bb9b63", size = 458972, upload-time = "2026-09-15T19:29:36.253Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl", hash = "sha256:0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3", size = 135717, upload-time = "2026-09-15T19:29:34.577Z" },
+]
+
+[[package]]
+name = "vexy-python-markdown-figure-groups"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "markdown" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/12/60/b2d7a64fe0859970ecca8f1b2ccfbecf5db73f343622b2220595f457bba3/vexy_python_markdown_figure_groups-0.1.0.tar.gz", hash = "sha256:7b7c506d9e792e387e57fffd0f55be918b93a5e0dc9a536967d5ce8f06d75b11", size = 15214, upload-time = "2026-11-23T21:16:35.527Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d8/9b/5a41e6a7efb428e7e945086eae47e081b551880d0d24b7b69114c9f343b3/vexy_python_markdown_figure_groups-0.1.0-py3-none-any.whl", hash = "sha256:9224022a735492d1aa25c669f12c44733ecd76c8c76921c90c45b81f0d628b8a", size = 11609, upload-time = "2026-11-23T21:16:34.565Z" },
 ]
 
 [[package]]

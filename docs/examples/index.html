@@ -38,12 +38,17 @@
       
     
     
+  
       <link rel="stylesheet" href="../assets/stylesheets/main.1d60cbd7.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.a45159b5.min.css">
       
     
+  <link rel="stylesheet" data-fly-photoswipe href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.css"
+      integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei+Zx/1oA/0l8ysE" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/fly/fly.css?v=24c03d88bb">
+
     
 
     
@@ -54,10 +59,6 @@
     
       
     
-    
-      <link rel="stylesheet" href="https://i.fontlab.com/fltheme26/1.0.0/components.css">
-    
-      <link rel="stylesheet" href="https://i.fontlab.com/fltheme26/1.0.0/theme.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -65,6 +66,20 @@
 
     
     
+  
+  <script>try{if(sessionStorage.getItem("fly-l2")==="in"){document.documentElement.dataset.flyL2="in";sessionStorage.removeItem("fly-l2")}}catch(e){}</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0&icon_names=arrow_back,arrow_forward,dark_mode,light_mode&display=block">
+  <script>try{document.fonts.load('20px "Material Symbols Outlined"',"arrow_backarrow_forwarddark_modelight_mode").then(function(f){if(f.length)document.documentElement.classList.add("fly-msym")})}catch(e){}</script>
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin>
+  <link rel="preconnect" href="https://p.typekit.net" crossorigin>
+  <link rel="stylesheet" href="https://use.typekit.net/cmv5add.css" data-fly-font>
+  <link rel="stylesheet" href="https://use.typekit.net/cna4jfp.css" data-fly-font>
+  <link rel="stylesheet" href="https://use.typekit.net/wck5koo.css" data-fly-font>
+  <script src="https://i.fontlab.com/menu/fontlab.js" defer></script>
+
   </head>
   
   
@@ -77,7 +92,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red" data-mx-topbar="glass">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" data-mx-topbar="glass" class="fly-margin-left fly-chrome-fontlab" data-fly-hue="cherry">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -98,6 +113,8 @@
     </div>
     
     
+  <fontlab-menu mode="dark" site-label="Photofont 2.0" site-url="https://fontlab.dev/photofont-phf-file-format-spec/" mobile-menu="materialx" mobile-search="materialx"></fontlab-menu>
+  
       
 
   
@@ -137,7 +154,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -147,7 +164,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -207,6 +224,7 @@
   
 </header>
     
+
     <div class="md-container" data-md-component="container">
       
       
@@ -245,12 +263,13 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Overview">
     
   
     Overview
@@ -268,6 +287,7 @@
     
       
       
+  
   
   
   
@@ -293,7 +313,7 @@
             
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Specification">
     
   
     Specification
@@ -320,6 +340,7 @@
             
               
                 
+  
   
   
   
@@ -352,6 +373,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../mapping/" class="md-nav__link">
         
@@ -376,6 +398,7 @@
             
               
                 
+  
   
   
   
@@ -408,6 +431,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../resources/" class="md-nav__link">
         
@@ -432,6 +456,7 @@
             
               
                 
+  
   
   
   
@@ -469,13 +494,13 @@
       
   
   
+  
     
   
   
   
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
@@ -485,7 +510,7 @@
           
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Examples">
     
   
     Examples
@@ -503,7 +528,7 @@
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Examples">
     
   
     Examples
@@ -522,12 +547,14 @@
   
   
   
+  
+    
     
   
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Complete examples
     </label>
     <ul class="md-nav__list" data-md-component="toc">
       
@@ -600,12 +627,13 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../python/" class="md-nav__link">
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Python recipes">
     
   
     Python recipes
@@ -627,12 +655,13 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../sources/" class="md-nav__link">
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Sources and status">
     
   
     Sources and status
@@ -665,12 +694,14 @@
   
   
   
+  
+    
     
   
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Complete examples
     </label>
     <ul class="md-nav__list" data-md-component="toc">
       
@@ -746,7 +777,7 @@
                 
                   
 
-<h1 id="complete-examples">Complete examples<a class="headerlink" href="#complete-examples" title="Permanent link">&para;</a></h1>
+<h1 id="complete-examples">Complete examples<a aria-label="Permanent link" class="headerlink" href="#complete-examples" title="Permanent link">&para;</a></h1>
 <p>These synthetic fonts contain <code>A</code> (U+0041) and a metric-only space (U+0020).
 They are original examples under the repository's MIT license. No private font
 or implementation is included. Each listing below comes from the downloadable
@@ -791,7 +822,7 @@ file itself.</p>
 transport and metrics; it is transparent and is not intended as a visible letter.
 The SVG examples put their top 700 units above the baseline. Their horizontal
 shape positions match despite their different source coordinate systems.</p>
-<h2 id="embedded-png">Embedded PNG<a class="headerlink" href="#embedded-png" title="Permanent link">&para;</a></h2>
+<h2 id="embedded-png">Embedded PNG<a aria-label="Permanent link" class="headerlink" href="#embedded-png" title="Permanent link">&para;</a></h2>
 <p>Download <a href="embedded-png.phf">embedded-png.phf</a>. No additional files are
 needed. PNG data is wrapped in MIME headers inside <code>data/photo/image</code>.</p>
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?xml version='1.0' encoding='utf-8'?&gt;</span>
@@ -844,7 +875,7 @@ AAUAAXpeqz8AAAAASUVORK5CYII=
 <span class="w">  </span><span class="nt">&lt;/data&gt;</span>
 <span class="nt">&lt;/PhF&gt;</span>
 </code></pre></div>
-<h2 id="external-png">External PNG<a class="headerlink" href="#external-png" title="Permanent link">&para;</a></h2>
+<h2 id="external-png">External PNG<a aria-label="Permanent link" class="headerlink" href="#external-png" title="Permanent link">&para;</a></h2>
 <p>Save <a href="external-png.phf">external-png.phf</a> and
 <a href="pixel.png">pixel.png</a> in the same directory.</p>
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?xml version='1.0' encoding='utf-8'?&gt;</span>
@@ -886,7 +917,7 @@ AAUAAXpeqz8AAAAASUVORK5CYII=
 <span class="w">  </span><span class="nt">&lt;/glyphs&gt;</span>
 <span class="nt">&lt;/PhF&gt;</span>
 </code></pre></div>
-<h2 id="embedded-svg">Embedded SVG<a class="headerlink" href="#embedded-svg" title="Permanent link">&para;</a></h2>
+<h2 id="embedded-svg">Embedded SVG<a aria-label="Permanent link" class="headerlink" href="#embedded-svg" title="Permanent link">&para;</a></h2>
 <p>Download <a href="embedded-svg.phf">embedded-svg.phf</a>. The glyph references an
 SVG fragment in <code>data/image</code>; no nested SVG root or MIME wrapper is used.</p>
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?xml version='1.0' encoding='utf-8'?&gt;</span>
@@ -933,7 +964,7 @@ SVG fragment in <code>data/image</code>; no nested SVG root or MIME wrapper is u
 <span class="w">  </span><span class="nt">&lt;/data&gt;</span>
 <span class="nt">&lt;/PhF&gt;</span>
 </code></pre></div>
-<h2 id="external-svg">External SVG<a class="headerlink" href="#external-svg" title="Permanent link">&para;</a></h2>
+<h2 id="external-svg">External SVG<a aria-label="Permanent link" class="headerlink" href="#external-svg" title="Permanent link">&para;</a></h2>
 <p>Save <a href="external-svg.phf">external-svg.phf</a> and <a href="A.svg">A.svg</a>
 in the same directory. The external image's baseline is at <code>y=700</code>.</p>
 <div class="highlight"><pre><span></span><code><span class="cp">&lt;?xml version='1.0' encoding='utf-8'?&gt;</span>
@@ -981,7 +1012,7 @@ in the same directory. The external image's baseline is at <code>y=700</code>.</
 <span class="w">  </span><span class="nt">&lt;path</span><span class="w"> </span><span class="na">d=</span><span class="s">"M0 700 L300 0 L600 700 L450 700 L300 300 L150 700 Z"</span><span class="w"> </span><span class="na">fill=</span><span class="s">"#d13b42"</span><span class="nt">/&gt;</span>
 <span class="nt">&lt;/svg&gt;</span>
 </code></pre></div>
-<h2 id="inspect-the-files">Inspect the files<a class="headerlink" href="#inspect-the-files" title="Permanent link">&para;</a></h2>
+<h2 id="inspect-the-files">Inspect the files<a aria-label="Permanent link" class="headerlink" href="#inspect-the-files" title="Permanent link">&para;</a></h2>
 <p>Download <a href="photofont.py">photofont.py</a>, then run:</p>
 <div class="highlight"><pre><span></span><code>uv<span class="w"> </span>run<span class="w"> </span>photofont.py<span class="w"> </span>embedded-png.phf
 uv<span class="w"> </span>run<span class="w"> </span>photofont.py<span class="w"> </span>external-svg.phf
@@ -1034,24 +1065,14 @@ See <a href="../python/">Python recipes</a> for the reader's scope and resource 
 </div>
       </main>
       
+  
         <footer class="md-footer">
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
   
-  
-    Made with
-    <a href="https://jaywhj.github.io/mkdocs-materialx/" target="_blank" rel="noopener">
-      MaterialX
-    </a>
-  
-</div>
-      
-    </div>
-  </div>
 </footer>
       
+  <fontlab-footer mode="dark"></fontlab-footer>
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
@@ -1071,12 +1092,12 @@ See <a href="../python/">Python recipes</a> for the reader's scope and resource 
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "code": null, "features": ["navigation.sections", "navigation.top", "search.highlight", "content.code.copy"], "search": {"options": {"baseUrl": "..", "bundleUrl": "../search/", "highlight": true, "searchOptions": {}}, "provider": "pagefind"}, "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "code.collapse": "Collapse", "code.download": "Download", "code.expand": "Expand remaining # lines", "code.select": "Toggle line selection", "search.offline": "Switch to Lunr for offline search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
+  
       <script src="../assets/javascripts/bundle.19ace10b.min.js"></script>
       
-        <script src="https://i.fontlab.com/fltheme26/1.0.0/basecoat.js"></script>
-      
-        <script src="https://i.fontlab.com/fltheme26/1.0.0/theme.js"></script>
-      
     
+  <script src="../assets/fly/fly-bridge.js?v=86c9984233"></script>
+  <script type="module" src="../assets/fly/fly.js?v=f51ac22526"></script>
+
   </body>
 </html>

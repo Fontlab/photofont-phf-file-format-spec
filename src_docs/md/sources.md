@@ -48,8 +48,7 @@ created for this specification, and covered by the repository's MIT license.
 
 ## Website tooling
 
-The website follows the FontLab Marketing and VFJ documentation sites:
-[ProperDocs](https://properdocs.org/user-guide/configuration/),
-[MaterialX](https://pypi.org/project/mkdocs-materialx/) and versioned
-[fltheme26](https://i.fontlab.com/fltheme26/1.0.0/theme.css) styles and scripts.
+The website uses [ProperDocs](https://properdocs.org/user-guide/configuration/)
+and the [fly-january 0.1.1 theme](https://pypi.org/project/fly-january/0.1.1/)
+with the FontLab menu and footer.
 Markdown and configuration are maintained separately from generated HTML.

@@ -29,7 +29,7 @@ uv run --frozen properdocs serve --config-file src_docs/mkdocs.yml
 
 | Path | Purpose |
 | --- | --- |
-| `src_docs/mkdocs.yml` | ProperDocs configuration with MaterialX and fltheme26 |
+| `src_docs/mkdocs.yml` | ProperDocs configuration for fly-january with the FontLab menu and footer |
 | `src_docs/md/` | Markdown source and downloadable original examples |
 | `docs/` | Generated static website, published by GitHub Pages from `main:/docs` |
 | `tests/` | Executable recipe and resource checks |

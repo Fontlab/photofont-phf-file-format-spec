@@ -4,6 +4,10 @@ this_file: CHANGELOG.md
 
 # Changelog
 
+## Unreleased
+
+- Site now uses the fly-january 0.1.1 theme (chrome: fontlab)
+
 ## 2026-10-25
 
 - Add an original Photofont 2.0 XML specification with PNG/SVG resource rules,

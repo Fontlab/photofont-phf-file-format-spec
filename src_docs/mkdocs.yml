@@ -8,7 +8,7 @@ exclude_docs: |
   **/__pycache__/**
   **/*.pyc
 theme:
-  name: materialx
+  name: fly-january
   font: false
   features:
     - navigation.sections
@@ -17,19 +17,16 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: black
-      accent: red
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: black
-      accent: red
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 plugins:
-  - materialx/search
+  - search
+  - fly
 markdown_extensions:
   - admonition
   - tables
@@ -52,9 +49,9 @@ nav:
   - Examples: examples.md
   - Python recipes: python.md
   - Sources and status: sources.md
-extra_css:
-  - https://i.fontlab.com/fltheme26/1.0.0/components.css
-  - https://i.fontlab.com/fltheme26/1.0.0/theme.css
-extra_javascript:
-  - https://i.fontlab.com/fltheme26/1.0.0/basecoat.js
-  - https://i.fontlab.com/fltheme26/1.0.0/theme.js
+extra:
+  fly:
+    chrome: fontlab
+    chrome_options:
+      site-label: Photofont 2.0
+    hue: cherry
