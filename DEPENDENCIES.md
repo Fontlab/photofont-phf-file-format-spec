@@ -9,7 +9,7 @@ Exact resolved versions are in `uv.lock`.
 | Package | Purpose |
 | --- | --- |
 | ProperDocs | Build the static site from Markdown and YAML. |
-| fly-january 0.2.1 | Site theme with the FontLab menu and footer. |
+| fly-january 0.3.0 or later | Site theme with the FontLab menu and footer. |
 | mkdocs-materialx | Documentation navigation, search and code presentation. |
 | pymdown-extensions | Highlighted fenced code and Markdown snippets. |
 | defusedxml | Parse XML examples while rejecting DTD/entity declarations. |

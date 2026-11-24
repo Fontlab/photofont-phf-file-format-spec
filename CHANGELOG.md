@@ -6,6 +6,7 @@ this_file: CHANGELOG.md
 
 ## Unreleased
 
+- Require fly-january 0.3.0 or later and rebuild the site with 0.3.0.
 - Site now uses the fly-january 0.2.1 theme (chrome: fontlab)
 
 ## 2026-10-25
