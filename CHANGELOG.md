@@ -6,6 +6,7 @@ this_file: CHANGELOG.md
 
 ## Unreleased
 
+- Use fly-january 0.4.0 or later (remote theme assets) to load theme files from the FontLab CDN.
 - Require fly-january 0.3.0 or later and rebuild the site with 0.3.0.
 - Site now uses the fly-january 0.2.1 theme (chrome: fontlab)
 

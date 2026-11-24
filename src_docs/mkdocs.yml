@@ -8,7 +8,7 @@ exclude_docs: |
   **/__pycache__/**
   **/*.pyc
 theme:
-  name: fly-january
+  name: fly-january-remote
   font: false
   features:
     - navigation.sections
