@@ -2,8 +2,4 @@
 this_file: TODO.md
 ---
 
-- [x] Write and cross-check the complete specification.
-- [x] Test synthetic PNG/SVG fixtures and Python examples.
-- [x] Build the ProperDocs site into `docs/`.
-- [x] Review content, code, links, privacy and browser behaviour.
-- [x] Commit, push, publish and verify the live HTTPS site.
+No open tasks. The [changelog](CHANGELOG.md#2026-10-25) records the five completed items.
